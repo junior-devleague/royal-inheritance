@@ -1,16 +1,30 @@
-# royalInheritanceTFR
+Sample code to create a basic tree. 
 
-## The Problem
+```python
 
-Lian is the dying ruler of a wealthy kingdom. He is renowned for being an avid lover of art and nature. Lian has no heirs to succeed him, so he issues a decree to all his subjects:
+import turtle
 
->_Whoever can bring me the most beautiful flower or tree in the kingdom will be my successor._
+def tree(branchLen,t):
+    if branchLen > 5:
+        t.forward(branchLen)
+        t.right(20)
+        tree(branchLen-15,t)
+        t.left(40)
+        tree(branchLen-15,t)
+        t.right(20)
+        t.backward(branchLen)
 
-## Your Mission 
+def main():
+    t = turtle.Turtle()
+    myWin = turtle.Screen()
+    t.left(90)
+    t.up()
+    t.backward(100)
+    t.down()
+    t.color("green")
+    tree(75,t)
+    myWin.exitonclick()
 
-Using **recursion** and the Python `turtle` library, draw a tree or flower to present to the king! You may want to look up `turtle` documentation for this! 
-
-## Examples of recursive Turtle art
-
-![art example](http://blog.smartbear.com/wp-content/uploads/2013/06/arbre.png)
+main()
+```
 
