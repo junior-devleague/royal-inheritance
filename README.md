@@ -8,7 +8,7 @@ Lian is the dying ruler of a wealthy kingdom. He is renowned for being an avid l
 
 ## Your Mission 
 
-Using *recursion* and the Python `turtle` library, draw a tree or flower to present to the king! You may want to look up `turtle` documentation for this! 
+Using **recursion** and the Python `turtle` library, draw a tree or flower to present to the king! You may want to look up `turtle` documentation for this! 
 
 ## Examples of recursive Turtle art
 
