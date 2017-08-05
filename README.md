@@ -14,3 +14,8 @@ Using **recursion** and the Python `turtle` library, draw a tree or flower to pr
 
 ![art example](http://blog.smartbear.com/wp-content/uploads/2013/06/arbre.png)
 
+## Resources
+
+- http://interactivepython.org/runestone/static/pythonds/Recursion/pythondsintro-VisualizingRecursion.html
+- https://docs.python.org/3.2/library/turtle.html
+- http://www.eecs.wsu.edu/~schneidj/PyBook/chap13.pdf **(refer to section 13.5)**
